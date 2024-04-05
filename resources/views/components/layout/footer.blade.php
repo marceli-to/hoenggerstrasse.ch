@@ -7,21 +7,24 @@
   @if (!Route::is('page.privacy') && !Route::is('page.imprint'))
   <div class="bg-mist px-15 py-20 md:px-25 md:py-30">
     <x-layout.inner>
-      <x-layout.grid class="leading-[1.35]">
-        <x-layout.span class="md:col-span-6 lg:col-span-5">
+      <x-layout.grid>
+        <x-layout.span class="md:col-span-8">
           <h3>Kontakt</h3>
           <div class="md:flex md:gap-x-45">
-            <p>
+            <div class="mb-20 md:mb-0">
               Apleona Schweiz AG<br>
               Industriestrasse 21<br>
               8304 Wallisellen
-            </p>
-            <p>
+            </div>
+            <div>
               Chantal Bieri<br>
               chantal.bieri@apleona.com<br>
               044 878 77 26
-            </p>
+            </div>
           </div>
+        </x-layout.span>
+        <x-layout.span class="md:col-span-4 sm:flex sm:items-end md:items-center sm:justify-end">
+          <x-icons.logo-apleona class="w-150 2xl:w-185 h-auto" />
         </x-layout.span>
       </x-layout.grid>
     </x-layout.inner>

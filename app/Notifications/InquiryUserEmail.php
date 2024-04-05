@@ -41,7 +41,7 @@ class InquiryUserEmail extends Notification
     return (new MailMessage)
       ->from(env('MAIL_FROM_ADDRESS'))
       ->replyTo(env('MAIL_TO'))
-      ->subject('Ihre Interesse hoenggerstrasse.ch')
+      ->subject('Wohnen in Zürich-Wipkingen | Scala Hönggerstrasse')
       ->markdown('mail.inquiry.user', ['data' => $this->data]);
   }
 

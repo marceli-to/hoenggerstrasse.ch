@@ -1,15 +1,6 @@
 @extends('app')
 @section('content')
 
-<x-layout.section class="bg-white !p-0">
-  <x-swiper>
-    <x-swiper.slide :image="'wohnen-felsengrund-visualisierung-aussen-nord'" :alt="'Visualisierung Aussen Nord'" />
-    <x-swiper.slide :image="'wohnen-felsengrund-visualisierung-aussen-sued'" :alt="'Visualisierung Aussen Süd'" />
-    <x-swiper.slide :image="'wohnen-felsengrund-visualisierung-attika-essen'" :alt="'Visualisierung Attika Essen'" />
-    <x-swiper.slide :image="'wohnen-felsengrund-visualisierung-attika-schlafzimmer'" :alt="'Visualisierung Attika Schlafzimmer'" />
-    <x-swiper.slide :image="'wohnen-felsengrund-visualisierung-wohnzimmer-eg'" :alt="'Visualisierung Wohnzimmer EG'" />
-  </x-swiper>
-</x-layout.section>
 
 <x-layout.section class="bg-mist">
   <x-layout.inner>

@@ -16,8 +16,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#464645">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#021e24">
 @vite('resources/css/app.css')
 @livewireStyles
 </head>
-<body class="antialiased font-sans-regular text-navy text-base md:text-md tracking-normal leading-[1.45] flex min-h-full flex-col">
+<body class="antialiased font-sans-regular text-navy text-base md:text-md tracking-normal leading-[1.35] flex min-h-full flex-col">

@@ -24,13 +24,13 @@
           class="relative right-auto left-0 h-24 mb-5 top-2"
           />
       @enderror
-      <div class="flex flex-col md:flex-row gap-y-7 md:gap-y-0 md:gap-x-40">
-        <div>
-          <div class="mb-4">
+      <div class="flex flex-col md:flex-row md:gap-x-40">
+        <div class="mb-5 md:mb-0">
+          <div class="mb-5">
             <x-form.checkbox name="interest" value="1-Zimmerwohnung" isWire="true" class="-mt-4" id="interest-1zi" />
             <x-form.checkbox-label for="interest-1zi">1-Zimmerwohnung</x-form.checkbox-label>
           </div>
-          <div class="mb-4">
+          <div class="mb-5">
             <x-form.checkbox name="interest" value="1.5-Zimmerwohnung" isWire="true" class="-mt-4" id="interest-1.5zi" />
             <x-form.checkbox-label for="interest-1.5zi">1.5-Zimmerwohnung</x-form.checkbox-label>
           </div>
@@ -40,7 +40,7 @@
           </div>
         </div>
         <div>
-          <div class="mb-4">
+          <div class="mb-5">
             <x-form.checkbox name="interest" value="3.5-Zimmerwohnung" isWire="true" class="-mt-4" id="interest-3.5zi" />
             <x-form.checkbox-label for="interest-3.5zi">3.5-Zimmerwohnung</x-form.checkbox-label>
           </div>

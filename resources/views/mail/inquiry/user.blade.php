@@ -1,9 +1,6 @@
 <x-mail::message>
   <div class="text-base pb-base">
-    Sehr geehrte Damen und Herren<br><br>
-    Danke für Ihr Interesse an unserem Projekt «Felsengrund». Gerne kontaktieren wir Sie mit weiteren Informationen, wenn der offizielle Vermarktungsstart erfolgt.<br><br>
-    Bis dahin wünschen wir Ihnen einen schönen Frühlingsstart.<br><br>
-    Ihr Felsengrund-Team
+    Sehr geehrte Damen und Herren<br><br>Danke für Ihr Interesse. Gerne kontaktieren wir Sie mit weiteren Informationen, wenn der offizielle Vermarktungsstart erfolgt.
   </div>
   <br>
   <div class="text-base pb-base">
