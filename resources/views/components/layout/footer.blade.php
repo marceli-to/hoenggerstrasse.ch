@@ -18,8 +18,12 @@
             </div>
             <div>
               Chantal Bieri<br>
-              chantal.bieri@apleona.com<br>
-              044 878 77 26
+              <a href="mailto:chantal.bieri@apleona.com">
+              chantal.bieri@apleona.com
+              </a><br>
+              <a href="tel:044 878 77 26">
+                044 878 77 26
+              </a>
             </div>
           </div>
         </x-layout.span>
