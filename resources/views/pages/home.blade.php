@@ -1,7 +1,5 @@
 @extends('app')
 @section('content')
-
-
 <x-layout.section class="bg-mist">
   <x-layout.inner>
     <div class="max-w-4xl">
@@ -12,12 +10,10 @@
     </div>
   </x-layout.inner>
 </x-layout.section>
-
 <x-layout.section class="bg-pearl">
   <x-layout.inner>
     <h1>Kontaktformular</h1>
     @livewire('create-inquiry')
   </x-layout.inner>
 </x-layout.section>
-
 @endsection

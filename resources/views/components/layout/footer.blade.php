@@ -24,7 +24,7 @@
           </div>
         </x-layout.span>
         <x-layout.span class="md:col-span-4 sm:flex sm:items-end md:items-center sm:justify-end">
-          <x-icons.logo-apleona class="w-150 2xl:w-185 h-auto" />
+          <x-icons.logo-apleona class="w-150 md:w-180 xl:w-220 h-auto" />
         </x-layout.span>
       </x-layout.grid>
     </x-layout.inner>
