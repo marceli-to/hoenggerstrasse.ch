@@ -1,4 +1,4 @@
 @props(['type' => 'submit'])
-<button type="{{ $type }}" {{ $attributes->merge(['class' => 'bg-mist rounded-sm font-sans-bold font-bold flex text-navy uppercase py-10 px-20 !leading-none hover:bg-white transition-all']) }}>
+<button type="{{ $type }}" {{ $attributes->merge(['class' => 'bg-mist rounded-sm font-sans-bold font-bold flex text-navy uppercase py-10 px-20 hover:bg-white transition-all']) }}>
   {{ $slot}}
 </button>
