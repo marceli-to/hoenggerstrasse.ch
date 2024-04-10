@@ -11,7 +11,7 @@ return [
   |
   */
 
-  'title' => 'Wohnen in Zürich-Wipkingen | Scala Hönggerstrasse',
+  'title' => 'Wohnen in Zürich-Wipkingen | Scala Zürich',
 
   /*
   |--------------------------------------------------------------------------
