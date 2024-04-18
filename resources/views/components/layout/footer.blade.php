@@ -4,7 +4,7 @@
 </x-layout.section>
 @endif
 <footer>
-  @if (!Route::is('page.privacy') && !Route::is('page.imprint'))
+  {{-- @if (!Route::is('page.privacy') && !Route::is('page.imprint'))
   <div class="bg-mist px-15 py-20 md:px-25 md:py-30">
     <x-layout.inner>
       <x-layout.grid>
@@ -33,7 +33,7 @@
       </x-layout.grid>
     </x-layout.inner>
   </div>
-  @endif
+  @endif --}}
   <div class="bg-pearl text-sm md:text-base tracking-wider py-10 px-15 md:px-25">
     <x-layout.inner>
       <nav>
