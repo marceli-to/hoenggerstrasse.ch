@@ -3,16 +3,18 @@
 <x-layout.section>
   <x-layout.inner class="imprint">
     <h1>Impressum</h1>
+
+    <h2>Vermarktung Erstvermietung</h2>
     <p>
-      Apleona Schweiz AG<br>
-      Industriestrasse 21<br>
-      8304 Wallisellen<br>
-      <a 
-        href="mailto:mieten@apleona.com" 
-        target="_blank" 
-        rel="noopener" 
-        class="hover:underline underline-offset-2 decoration-1">
-        mieten@apleona.com
+      Gfeller Treuhand und Verwaltungs AG<br>
+      Bahnhofstrasse 60<br>
+      Postfach<br>
+      8600 Dübendorf 1<br>
+      <a href="mailto:info@gfeller-treuhand.ch" target="_blank" rel="noopener" class="hover:underline underline-offset-2 decoration-1">
+        info@gfeller-treuhand.ch
+      </a><br>
+      <a href="https://www.gfeller-treuhand.ch" target="_blank" rel="noopener" class="hover:underline underline-offset-2 decoration-1">
+        www.gfeller-treuhand.ch
       </a>
     </p>
     <h2>Design und Entwicklung</h2>

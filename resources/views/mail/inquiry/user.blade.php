@@ -1,37 +1,14 @@
 <x-mail::message>
   <div class="text-base pb-base">
-    Sehr geehrte Damen und Herren<br><br>Danke für Ihr Interesse. Gerne kontaktieren wir Sie mit weiteren Informationen, sobald der offizielle Vermarktungsstart erfolgt.
+    Guten Tag {{ $data->firstname }} {{ $data->name }}<br><br>
+    Vielen Dank für Ihr Interesse an der Überbauung SCALA an der Hönggerstrasse 146/148 in 8037 Zürich-Wipkingen.<br><br>
+    Sie sind nun bei uns als Interessent/Interessentin registriert und gehören zu den ersten, die im Juni 2025 die detaillierten Vermarktungsunterlagen erhalten werden. Zu den detaillierten Unterlagen gehören auch die Mietpreise, welche jetzt noch nicht bekannt sind.<br><br>
+    Vielen Dank im Voraus für Ihre Geduld.<br><br>
+    Freundliche Grüsse<br>
+    Ihr Gfeller Treuhand und Verwaltungs AG Team
   </div>
   <br>
   <div class="text-base pb-base">
-    <strong>Ihre Angaben:</strong>
-  </div>
-  <div class="text-base pb-base">
-    <strong>Vorname</strong><br>
-    {{ $data->firstname }}
-  </div>
-  <div class="text-base pb-base">
-    <strong>Name</strong><br>
-    {{ $data->name }}
-  </div>
-  <div class="text-base pb-base">
-    <strong>Strasse/Nr.</strong><br>
-    {{ $data->street }}
-  </div>
-  <div class="text-base pb-base">
-    <strong>PLZ/Ort</strong><br>
-    {{ $data->location }}
-  </div>
-  <div class="text-base pb-base">
-    <strong>E-Mail</strong><br>
-    {{ $data->email }}
-  </div>
-  <div class="text-base pb-base">
-    <strong>Telefon</strong><br>
-    {{ $data->phone }}
-  </div>
-  <div class="text-base pb-base">
-    <strong>Wohnung</strong><br>
-    {{ $data->interest }}
+    Gerne informieren wir Sie in unserer Datenschutzerklärung darüber, wie wir Personendaten bearbeiten. <a href="https://www.gfeller-treuhand.ch/datenschutzerklaerung" target="_blank">gfeller-treuhand.ch/datenschutzerklaerung</a>
   </div>
 </x-mail::message>
